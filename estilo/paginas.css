@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Cloister Black';
+    src: url('../fontes/cloister_black/CloisterBlack.ttf') format(truetype);
+    font-weight: normal;
+}
+
+* {
+    padding: 0px;
+    margin: auto;
+    
+}
+
+body {
+    height: 100vh;
+    color: black;
+}
+
+header {
+    font-family: 'Cloister Black';
+    text-align: center;
+    font-size: 4em;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.46);
+    font-variant: small-caps;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    text-align: justify;
+    font-size: 1.1em;
+    padding: 30px;
+    background-color: rgba(169, 169, 169, 0.301);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+main img {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+    font-variant: small-caps;
+}
+
+footer a:hover {
+    font-size: 1.1em;
+    text-decoration: underline;
+    color: whitesmoke;
+}

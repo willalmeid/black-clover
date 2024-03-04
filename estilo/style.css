@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Cloister Black';
+    src: url('../fontes/cloister_black/CloisterBlack.ttf') format(truetype);
+    font-weight: normal;
+}
+
+* {
+    padding: 0px;
+    margin: auto;
+    color: white;
+    font-size: 1em;
+}
+
+body {
+    min-width: 100%;
+    max-width: 1000px;
+    height: 100vh;
+}
+
+header {
+    font-family: 'Cloister Black';
+    text-align: center;
+    font-size: 4em;
+    padding: 25%;
+    text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.46);
+    background-image: url('../imagens/Black-Clover-Wallpaper-1024x640.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+header h1 {
+    background-color: rgba(0, 0, 0, 0.148);
+    font-variant: small-caps;
+}
+
+main {
+    padding: 0px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.79), rgb(52, 52, 52));
+}
+
+main h2 {
+    font-family: 'Cloister Black';
+    font-size: 4em;
+    text-align: center;
+    padding: 40px;
+    margin: 0px;
+    font-variant: small-caps;
+}
+
+section {
+    max-width: 98%;
+    margin: 0px;
+    padding: 10px 80px;
+    background-image: url('../imagens/imagemfundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+ul{
+    background-color: rgba(0, 0, 0, 0.152);
+    margin: auto;
+    padding: 1px;
+}
+
+li {
+    display: inline-block;
+    margin: auto;
+    padding: 10px 0px;
+    padding-left: 10vw;
+    padding-right: 15px;
+}
+
+img#centro{
+    max-width: 15vw;
+    min-width: 250px;
+    max-height: 250px;
+    min-height: 15vw;
+    margin: auto;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bolder;
+    font-variant: small-caps;
+}
+
+footer a:hover {
+    font-size: 1.1em;
+    text-decoration: underline;
+    color: whitesmoke;
+}
